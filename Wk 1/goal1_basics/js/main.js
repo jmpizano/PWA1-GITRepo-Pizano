@@ -1,6 +1,6 @@
 /*
-     Name:
-     Date:
+     Name: Jeremiah Pizano
+     Date: May 6, 2015
      Class & Section:  PWA1-####
      Comments: "Goal 1: Review of WPF"
  */
@@ -152,6 +152,9 @@ console.log('------ arrays ----------');
 
  ********************************************/
 
+var myArr1 = [10,50,100,200];
+console.log("The sum of all the numbers is ", myArr1[0] + myArr1[1] + myArr1[2] + myArr1[3]);
+
 
 
 /*******************************************
@@ -168,7 +171,11 @@ console.log('------ arrays ----------');
     3. output array items using string concatenation
 
  ********************************************/
-
+var myArray = new Array();
+myArray[0] = "Baseball";
+myArray[1] = "Football";
+myArray[2] = "Basketball";
+console.log(myArray[0] + ', ' + myArray[1] + ', ' + myArray[2]);
 
  // conditionals: (definition, indexing, math, if, if-else, if-else if, ternary)
 console.log('------ conditionals ----------');
