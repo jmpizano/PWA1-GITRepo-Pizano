@@ -175,7 +175,7 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 //STUDENT ACTIVITY 1:
 // Use substr() to console.log 'JavaScript!' from str1.
-
+console.log(str1.substr(7,11));
 
 // Use concat() to console.log 'I love JavaScript ! JavaScript loves me!' with str1 and str2.
 
@@ -183,12 +183,13 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 //STUDENT ACTIVITY 2:
 // Use substring() to console.log 'JavaScript' from str2.
-
+console.log(str2.substring(0,10));
 
 //STUDENT ACTIVITY 3:
 // 1. Use toLowerCase() to console.log the str1 all in lowercase letters.
 // 2. Use toUpperCase() to console.log the str1 all in uppercase letters.
-
+console.log(str1.toLowerCase());
+    console.log(str1.toUpperCase());
 
 
 /*
@@ -199,18 +200,21 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 console.log('------ MORE Numbers ----------');
 
+    var num = 457896;
+    var dec = 33.123456;
+
+
 // Use toExponential() console.log num in exponential notation with two decimals.
-
-
+console.log(num.toExponential(2));
 // Use toPrecision() console.log dec as four numbers.
-
+console.log(dec.toPrecision(4));
 
 //STUDENT ACTIVITY 4:
 //What method would you use to console.log the variable dec with two decimals.
-
+console.log(dec.toFixed(2));
 
 // Use toString() to console.log the type of num.
-
+console.log(typeof num.toString());
 
 
 /*
