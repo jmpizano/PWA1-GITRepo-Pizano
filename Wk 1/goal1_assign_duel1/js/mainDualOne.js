@@ -84,4 +84,10 @@ return results
         {
             result = playerOneName+" WINS!!!"
         };
-       
+        return result;
+    };
+
+    /*******  The program gets started below *******/
+    fight();
+
+})();
