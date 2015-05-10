@@ -56,3 +56,15 @@ return results
 
             console.log(playerOneName+": "+playerOneHealth + " " + playerTwoName+":"+playerTwoHealth);
 
+            //check for victor
+            var result = winnerCheck();
+            console.log(result);
+            if (result==="no winner")
+            {
+                round++;
+                alert(playerOneName+":"+playerOneHealth+"  *ROUND "+round+" OVER"+"*  "+playerTwoName+":"+playerTwoHealth);
+
+            } else{
+                alert(result);
+                break;
+            };
